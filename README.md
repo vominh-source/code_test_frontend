@@ -18,8 +18,8 @@ A web application for THPT 2024 exam score lookup and analysis – search by reg
 
 ### 📝 **Feature 1: Search Score**
 
--**Input**: Candidate Number.
-![Search Score](https://github.com/nlanhduy/ai-video-generator/blob/main/public/images/step-1/content-genrator.png)
+- **Description**: User will enter candidate number and receive the result of subjects.
+![Search Score](https://github.com/vominh-source/code_test_frontend/tree/main/public/readme_images)
 
 ### 🎤 **Feature 2: Subject Overview**
 
