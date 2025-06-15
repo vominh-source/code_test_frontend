@@ -15,6 +15,10 @@ A web application for THPT 2024 exam score lookup and analysis – search by reg
 </div>
 
 ## 📝 HOW TO RUN
+### 🧑‍💻 Guideline
+- My project include 2 folder: backend and front end.
+- Run backend then run front end.
+- After run front end, go to [https](http://localhost:3000) to view the project
 ### 🖥️ Frontend
 
 - **Link**: [https://github.com/vominh-source/code_test_frontend](https://github.com/vominh-source/code_test_frontend)
