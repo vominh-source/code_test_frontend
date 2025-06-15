@@ -19,17 +19,21 @@ A web application for THPT 2024 exam score lookup and analysis – search by reg
 
 - **Link**: [https://github.com/vominh-source/code_test_frontend](https://github.com/vominh-source/code_test_frontend)
 
-```npm install ```
-```npm run dev ```
+```bash
+npm install 
+npm run dev
+```
 
 ### 🛠️ Backend
 
 - **Link**: [https://github.com/vominh-source/code_test_backend](https://github.com/vominh-source/code_test_backend)
 
-```npm install```
-```npm run db:dev:up```
-```npm run prisma:dev:deploy```
-```npm run start:dev```
+```bash
+npm install              # Install project dependencies
+npm run db:dev:up        # Start PostgreSQL container via Docker
+npm run prisma:dev:deploy  # Apply Prisma migrations to the database
+npm run start:dev        # Start NestJS server in development mode
+```
 
 
 
