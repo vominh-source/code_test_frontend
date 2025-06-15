@@ -14,6 +14,23 @@ A web application for THPT 2024 exam score lookup and analysis – search by reg
   </p>
 </div>
 
+## 📝 HOW TO RUN
+### Front end
+- **Link**: [https://github.com/vominh-source/code_test_frontend]
+`npm i
+ npm run dev`
+
+
+- **Backend**: [link-to-backend-repo]
+
+
+
+
+---
+
+
+
+
 ## 🎬 Features Overview
 
 ### 📝 **Feature 1: Search Score**
@@ -77,20 +94,6 @@ The application follows a modern full-stack architecture:
 - 🐳 **Containerized Environment**  
   PostgreSQL and backend managed via Docker for consistency and portability
 
----
-
-## 🎯 Features
-
-- 📥 Import and seed raw score data from `diem_thi_thpt_2024.csv`
-- 🔍 Lookup student scores by registration number (SBD)
-- 📊 Subject-level score classification:
-  - ≥ 8 (Excellent)
-  - 6–7.99 (Good)
-  - 4–5.99 (Average)
-  - < 4 (Poor)
-- 📈 Score distribution statistics for each subject (charts)
-- 🏆 Top 10 highest scorers in Group A (Math, Physics, Chemistry)
-- 🌐 Responsive design (mobile, tablet, desktop)
 
 ---
 
