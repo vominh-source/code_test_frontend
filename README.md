@@ -3,7 +3,7 @@ A web application for THPT 2024 exam score lookup and analysis – search by reg
 
 
 
-![Homepage](https://github.com/nlanhduy/ai-video-generator/blob/main/public/images/step-1/homepage.png)
+![Homepage](https://github.com/vominh-source/code_test_frontend/blob/main/public/readme_images/home_page.png)
 
 <!-- Replace with actual image URL if available -->
 
@@ -33,57 +33,72 @@ A web application for THPT 2024 exam score lookup and analysis – search by reg
 
 - Poor (< 4 points)
 
-![Subject Overview](https://github.com/nlanhduy/ai-video-generator/blob/main/public/images/step-2/voice.png)
+![Subject Overview](https://github.com/vominh-source/code_test_frontend/blob/main/public/readme_images/subject_overview.png)
 
 ### 🖼️ **Feature 3: All Subject Overview**
 - **Description**: This feature kinda similar to feature 2 (Subject Overview), but the difference is that it will show the chart for all subjects.
-![All Subject Overview](https://github.com/nlanhduy/ai-video-generator/blob/main/public/images/step-3/choose-style.png)
+![All Subject Overview](https://github.com/vominh-source/code_test_frontend/blob/main/public/readme_images/all_subjects_overview.png)
 
 ### ✂️ **Feature 4: Top 10 Group A Students**
 - **Description**: This feature displays a ranked list of the top 10 students with the highest total scores in Group A, which includes three subjects: Math, Physics, and Chemistry.
-![Top 10 Group A Students](https://github.com/nlanhduy/ai-video-generator/blob/main/public/images/step-4/edit-timeline.png)
+![Top 10 Group A Students](https://github.com/vominh-source/code_test_frontend/blob/main/public/readme_images/top_10_A.png)
 
-## Technology Stack
+## 🧑‍💻 Tech Stack
 
-### Development Environment
+### 🖥️ Frontend
 
-- **Operating System**: Microsoft Windows
-- **IDE**: Visual Studio Code
-- **Design & Analysis**: Mermaid (UML diagrams and workflow modeling)
-- **Database**: No traditional database (API-based services)
+- **Framework**: Next.js (latest)
+- **UI Library**: React.js (Hooks)
+- **Styling**: Tailwind CSS (with **TailAdmin** template)
+- **Charts**: Recharts (score visualizations)
 
-### Frontend & Core Technologies
+### ⚙️ Backend
 
-- **Framework**: Next.js (latest version)
-- **UI Library**: React
-- **Styling**: TailwindCSS
-- **Runtime**: Node.js
-
-## Project Architecture
-
-This AI Video Generator follows a modern web application architecture:
-
-- 🎨 **Frontend (Next.js)**  
-  Handles user interface, step-by-step workflow, and real-time previews
-
-- ⚡ **AI Processing (Cloudflare Workers)**  
-  Manages AI model integrations and content processing
-
-- 🔗 **External APIs**  
-  Integrates with Gemini, ElevenLabs, Shotstack, and YouTube APIs
-
-## Purpose
-
-This AI Video Generator was developed as an innovative solution to democratize
-video content creation in the AI era. The platform addresses the growing demand
-for automated, high-quality video production by combining multiple AI
-technologies into a seamless, user-friendly workflow.
+- **Framework**: NestJS (TypeScript)
+- **ORM**: Prisma
+- **Database**: PostgreSQL
+- **Dev Tools**: Prisma Studio, Docker
 
 ---
 
-> 📂 Repositories:
->
-> -Front-end: []
-> -Back-end: []
+## 🏗️ Architecture
+
+The application follows a modern full-stack architecture:
+
+- 🎨 **Frontend (Next.js + TailAdmin)**  
+  Provides an interactive UI for score lookup, chart-based analysis, and ranking
+
+- ⚙️ **Backend (NestJS)**  
+  Handles API logic, data processing, and classification by score level
+
+- 📊 **Data Visualization**  
+  Subject-wise score distribution displayed using Recharts
+
+- 🐳 **Containerized Environment**  
+  PostgreSQL and backend managed via Docker for consistency and portability
+
+---
+
+## 🎯 Features
+
+- 📥 Import and seed raw score data from `diem_thi_thpt_2024.csv`
+- 🔍 Lookup student scores by registration number (SBD)
+- 📊 Subject-level score classification:
+  - ≥ 8 (Excellent)
+  - 6–7.99 (Good)
+  - 4–5.99 (Average)
+  - < 4 (Poor)
+- 📈 Score distribution statistics for each subject (charts)
+- 🏆 Top 10 highest scorers in Group A (Math, Physics, Chemistry)
+- 🌐 Responsive design (mobile, tablet, desktop)
+
+---
+
+## 📂 Repositories
+
+- **Frontend**: [link-to-frontend-repo]
+- **Backend**: [link-to-backend-repo]
+
+---
 
 Feel free to explore, contribute, or fork the project!
