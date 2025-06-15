@@ -16,8 +16,8 @@ A web application for THPT 2024 exam score lookup and analysis – search by reg
 
 ## 📝 HOW TO RUN
 ### Front end
-- **Link**: [https://github.com/vominh-source/code_test_frontend]
-`npm i
+- **Link**: [https://github.com/vominh-source/code_test_frontend]\
+`npm i\
  npm run dev`
 
 
