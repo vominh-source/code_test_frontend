@@ -10,7 +10,7 @@ A web application for THPT 2024 exam score lookup and analysis – search by reg
 <div align="center">
   <p align="center">
     An web app for looking exam score
-    <a href="https://www.youtube.com/watch?v=IrU6liVYhrU">View Demo</a>
+    <a href="https://youtu.be/TftywGnUuWE">View Demo</a>
   </p>
 </div>
 
@@ -109,14 +109,6 @@ The application follows a modern full-stack architecture:
 
 - 🐳 **Containerized Environment**  
   PostgreSQL and backend managed via Docker for consistency and portability
-
-
----
-
-## 📂 Repositories
-
-- **Frontend**: [link-to-frontend-repo]
-- **Backend**: [link-to-backend-repo]
 
 ---
 
